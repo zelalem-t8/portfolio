@@ -28,7 +28,7 @@ const INFO = {
       "I've worked on a variety of researchs and projects over the years and I'm proud of the progress I've made. Many of these projects are payment systems and. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
   },
 
-  articles: {
+  article: {
     title:
       "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
     description:
@@ -101,6 +101,31 @@ Dependencies`,
       role: "I have implemented evenet managment system ",
       organization: "BM Technology",
       link: "https://github.com/zelalem-t8/kifiya",
+    },
+  ],
+  articles: [
+    {
+      date: "Jun 2022",
+      title: "Amharic Language Visual Speech Recognition using Hybrid Features",
+      description:
+        "This study develops an Amharic visual speech recognition system for lip motion reading, using CNN and HOG for feature extraction. Videos of 14 words were recorded, and the combined features achieved 76.51% accuracy with random forest, surpassing previous methods.",
+      keywords: ["CNN", "HOG", "Visual Speech Recognition", "Image Processing"],
+      link: "https://www.ajol.info/index.php/abjst/article/view/226940",
+    },
+    {
+      date: "Jan 2023",
+      title:
+        "Classification and Grading of Cataracts Using a Deep Convolutional Neural Network",
+      description:
+        "This study aims to classify and grade cataracts, considering the impact of eye color in the Ethiopian population. Using an experimental approach, the model achieved 74% accuracy with raw data, improving to 97% after preprocessing, and 99% accuracy in grading cataract severity.",
+      style: ``,
+      keywords: [
+        "Artificial Intelligence in Healthcare",
+        "Catatarct Classification",
+        "CNN",
+        "Cataract Grading",
+      ],
+      link: "https://abjol.org.et/index.php/ajec/article/view/810",
     },
   ],
 };

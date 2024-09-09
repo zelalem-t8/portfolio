@@ -12,7 +12,7 @@ function Work(props) {
   };
 
   return (
-    <div className="container bg-dark text-light my-4 p-4 rounded">
+    <div className="container bg-dark text-light my-4 p-4 rounded shadow-lg overflow-hidden">
       {/* Flexbox for logo and title on the same line */}
       <div className="flex items-center mb-3 space-x-3">
         <h3 className="font-bold text-lg">{title}</h3> {/* Title */}

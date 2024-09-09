@@ -3,6 +3,7 @@ import INFO from "../data/user";
 function Projects() {
   return (
     <div className="projects">
+      <h1 className="p-4 text-l">My Projects</h1>
       {INFO.projects.map((project, index) => (
         <div className="all-projects-project" key={index}>
           <Project
